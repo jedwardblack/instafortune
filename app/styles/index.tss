@@ -1,0 +1,93 @@
+".featheredBackground[platform=ios]": {
+	backgroundImage: "/subtle_white_feathers.png",
+	backgroundRepeat: true,
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+    top:20
+}
+
+".featheredBackground[platform=android]": {
+	backgroundImage: "/subtle_white_feathers.png",
+	backgroundRepeat: true,
+	
+}
+
+
+"ActivityIndicator[platform=ios]": {
+	color: "gray",
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK,
+	font: {fontFamily:'Helvetica Neue', fontSize:26, fontWeight:'bold'}
+
+}
+
+"ActivityIndicator[platform=android]": {
+	color: "gray",
+	style: Ti.UI.ActivityIndicatorStyle.DARK,
+	font: {fontFamily:'Helvetica Neue', fontSize:26, fontWeight:'bold'}
+
+}
+
+
+"#webview" : {
+	visible:false,
+	zIndex: 99999
+}
+
+
+"#themeScrollableView" : {
+	top: "-300 dip",
+	left: 0,
+	height: "30 dip",
+	width: "100 %",
+	backgroundColor: "rgba(0,0,0,0.3)",
+	zIndex: 10000
+}
+
+
+
+"#previewBackground" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "rgb(0,0,0,0)"
+}
+
+
+
+"#clearScreen": {
+	bottom: 0,
+	right: 0,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+
+
+"#eyeball": {
+	image: "/IF_Eyeball.png",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+
+
+"#eyeballHover": {
+	image: "/IF_Eyeball_hover.png",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	opacity: "0.1"
+}
+
+
+
+"#logo": {
+	image: "/IF_Logo.png",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	left: "10dp",
+	bottom:"10dp"
+}
+
+
+"#fortuneBackgroundContainer": {
+	width: "90%",
+	height: Ti.UI.SIZE
+}

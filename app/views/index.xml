@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="featheredBackground">
+		<WebView id="webview"></WebView>
+		<View id="previewBackground"></View>
+		<ScrollableView id="themeScrollableView" />
+		<View id="workspace">
+			<View id="fortuneBackgroundContainer">
+				<ImageView id="fortuneBackground" />
+			</View>
+		</View>
+		<ActivityIndicator id="activityIndicator" message="Loading..."/>
+		<ImageView id="logo"></ImageView>
+		<View id="clearScreen">
+			<ImageView id="eyeballHover" />
+			<ImageView id="eyeball" />
+		</View>
+	</Window>
+</Alloy>

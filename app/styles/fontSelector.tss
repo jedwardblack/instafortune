@@ -1,0 +1,126 @@
+"#container" : {
+	zIndex: 5000
+}
+
+
+"#mainSectionContainer" : {
+	left: 0,
+	top: 0,
+	width: "200 dip"
+}
+
+
+"#fontLabelContainer" : {
+	width: "75 dip",
+	height: "30 dip",
+	borderColor: "#999",
+	backgroundColor: "#999",
+	top: 0,
+	left: 0,
+	bubbleParent: false
+}
+
+
+"#fontLabel" : {
+	color: "#DDD",
+	textAlign: "Ti.UI.TEXT_ALIGNMENT_CENTER"
+}
+
+
+"#colorLabelContainer" : {
+	width: "75 dip",
+	height: "30 dip",
+	borderColor: "#999",
+	top: 0,
+	left: "75 dip", 
+	bubbleParent: false,
+	backgroundColor: "rgba(255,255,255,0.8)" 
+						
+}
+
+
+"#colorLabel" : {
+	color: "#999",
+	textAlign: "Ti.UI.TEXT_ALIGNMENT_CENTER"
+}
+
+"#fontSizeModifier" : {
+	backgroundColor: "rgba(255,255,255,0.8)",
+	width: "150 dip",
+	height: "30 dip",
+	top: "29 dip",
+	left: 0,
+	bubbleParent: false
+}
+
+"#fontSizeLabelContainer" : {
+	top: 0,
+	left: 0,
+	width: "76 dip",
+	height: "30 dip",
+	borderColor: "#999"	
+}
+
+"#fontSizeLabel" : {
+	color: "#999",
+	textAlign: "Ti.UI.TEXT_ALIGNMENT_CENTER",
+	font: {fontSize: "12 dip"}
+}
+
+"#plusButtonContainer" : {
+	top: 0,
+	left: "75 dip",
+	width: "38 dip",
+	height: "30dip",
+	borderColor: "#999"
+}
+
+"#plusButtonLabel" : {
+	color: "#999",
+	textAlign: "Ti.UI.TEXT_ALIGNMENT_CENTER"
+}
+
+"#minusButtonContainer" : {
+	top: 0,
+	left: "112 dip",
+	width: "38 dip",
+	height: "30 dip",
+	borderColor: "#999"
+}
+
+"#minusButtonLabel" : {
+	color: "#999",
+	textAlign: "Ti.UI.TEXT_ALIGNMENT_CENTER"
+}
+
+"#fontPicker" : {
+	backgroundColor: 'rgba(0,0,0,0)',
+	top: "58 dip",
+	left: 0
+}
+
+
+"#colorTable" : {
+	backgroundColor: 'rgba(0,0,0,0)',
+	top: "30 dip",
+	left: 0,
+	visible: false,
+	width: "150 dip"
+}
+
+
+/*
+
+"#doneButton" : {
+	title : 'Done'
+}
+
+"#pickerToolbar" : {
+	bottom : "215dip"
+}
+
+"#fontPicker" : {
+	bottom: 0
+}
+*/
+

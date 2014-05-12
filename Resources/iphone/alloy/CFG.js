@@ -1,0 +1,1 @@
+module.exports={"dependencies":{},"parseApplicationId":"ZDlriIfpD7zKmWTTQrIQKv8gXJTDjPM1k8irnOSz","parseKey":"5M50imTvNzl0ROESzTVJUQAddjj9iGl8ZpCmfEXQ","twitterConsumerKey":"Izk1gsJaFkWq0tMWICHYCw","twitterConsumerSecret":"sBPD9Kzxz9hIPprCRvCLUW8S0X8a39euuEFEObZwZ2Y"};

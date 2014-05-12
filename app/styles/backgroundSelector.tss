@@ -1,0 +1,22 @@
+"#container" : {
+	zIndex: 5000
+}
+
+
+"#scrollableView" : {
+	showPagingControl: true
+}
+
+"ActivityIndicator[platform=ios]": {
+	color: "white",
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.DARK,
+	font: {fontFamily:'Helvetica Neue', fontSize:26, fontWeight:'bold'},
+	zIndex: 9999
+}
+
+"ActivityIndicator[platform=android]": {
+	color: "white",
+	style: Ti.UI.ActivityIndicatorStyle.DARK,
+	font: {fontFamily:'Helvetica Neue', fontSize:26, fontWeight:'bold'},
+	zIndex: 9999
+}

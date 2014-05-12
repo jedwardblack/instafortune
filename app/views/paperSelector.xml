@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="container">
+		<ActivityIndicator id="activityIndicator" message="Loading..."/>
+		<ScrollableView id="scrollableView">
+		</ScrollableView>
+	</View>
+</Alloy>

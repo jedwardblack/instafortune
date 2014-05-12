@@ -1,0 +1,28 @@
+<Alloy>
+	<View id="container" class="container">
+		
+		<View id="mainSectionContainer">
+			<View id="fontLabelContainer">
+				<Label id="fontLabel" text="Font" />
+			</View>
+			<View id="colorLabelContainer">
+				<Label id="colorLabel" text="Color" />
+			</View>
+			<ScrollView id="fontPicker">
+			</ScrollView>
+			<View id="fontSizeModifier">
+				<View id="fontSizeLabelContainer">
+					<Label id="fontSizeLabel" text="Font Size" />
+				</View>
+				<View id="plusButtonContainer">
+					<Label id="plusButtonLabel" text="+"/>
+				</View>
+				<View id="minusButtonContainer">
+					<Label id="minusButtonLabel" text="-"/>
+				</View>
+			</View>
+			<TableView id="colorTable">
+			</TableView>
+		</View>
+	</View>
+</Alloy>
