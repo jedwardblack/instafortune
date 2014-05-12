@@ -1000,6 +1000,7 @@ function Controller() {
     ifTestButton.addEventListener("click", function() {
         shareOnInstagram();
     });
+    $.index.add(twitterTestButton);
     $.activityIndicator.show();
     fetchAllThemes(function(themes) {
         themes.forEach(function(element) {
