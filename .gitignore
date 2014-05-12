@@ -1,0 +1,8 @@
+.DS_Store
+.metadata
+build.log
+build
+npm-debug.log
+tmp
+app_with_alloy/Resources
+.project
