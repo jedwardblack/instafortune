@@ -895,7 +895,7 @@
                     var err = arguments[0];
                     var nextargs = Array.prototype.slice.call(arguments, 1);
                     cb(err, nextargs);
-                }]))
+                }]));
             },
             function (err, results) {
                 callback.apply(that, [err].concat(results));
