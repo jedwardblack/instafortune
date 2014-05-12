@@ -22,7 +22,7 @@
             if (called) throw new Error("Callback was already called.");
             called = true;
             fn.apply(root, arguments);
-        }
+        };
     }
 
     //// cross-browser compatiblity functions ////
