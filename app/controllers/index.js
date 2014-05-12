@@ -1188,7 +1188,7 @@ function constructFortuneContainer() {
  */
 
 //$.index.add(ifTestButton);
-$.index.add(twitterTestButton);
+//$.index.add(twitterTestButton);
 
 $.activityIndicator.show();
 
